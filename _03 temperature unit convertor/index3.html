@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deg-Farheinhit-convbertor</title>
+    <link rel="stylesheet" href="style3.css">
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="x-icon" href="tmprtr.png">
+</head>
+
+<body>
+    <div class="container">
+        <div class="calc-area">
+            <div id="headercard">
+                <label for="" name="head">Temperature Converter</label>
+            </div>
+            <div class="card1">
+                <div class="value">
+                    <div class="label1">
+                        <label for="">From:</label>
+                    </div>
+                    <input type="number" id="decimal" step="0.01" placeholder="27.5">
+                    <div id="input-unit">
+                    <select name="value-unit" id="value-unit">
+                        <option value="" disabled selected>&deg;C</option>
+                        <option value="celsius">Celsius</option>
+                        <option value="fahrenheit">Fahrenheit</option>
+                        <option value="kelvin">Kelvin</option>
+                    </select>
+                    </div>
+                </div>
+                <div class="unit">
+                    <div class="label1">
+                        <label for="">Conversion Unit:</label>
+                    </div>
+                    <select name="unit" id="unit">
+                        <option value="" disabled selected>&deg;F</option>
+                        <option value="celsius">Celsius</option>
+                        <option value="fahrenheit">Fahrenheit</option>
+                        <option value="kelvin">Kelvin</option>
+                    </select>
+                </div>
+            </div>
+            <div class="card2">
+
+                <div class="result">
+                    <div class="label3"><label for="">To:</label></div>
+                    <input type="number" id="display" step="0.01" placeholder="80.1&deg;F" readonly>
+                    <button id="submit" type="submit" value="Convert">Convert</button></div>
+                
+            </div>
+        </div>
+    </div>
+    <script src="script3.js"></script>
+</body>
+
+</html>

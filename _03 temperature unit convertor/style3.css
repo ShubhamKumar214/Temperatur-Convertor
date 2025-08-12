@@ -1,0 +1,141 @@
+*{
+    margin:4px;
+    border-radius: 14px;
+    padding: 4px;
+    font-family: "Share Tech", sans-serif;
+    font-size:large;
+    
+}
+body {
+    background: rgba(238, 238, 40, 0.815);
+}
+
+.container {
+    background: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.calc-area {
+    background: orange;
+    height:20em;
+    width:24em;
+    align-self: center;
+    display:flex;
+    flex-wrap: wrap;
+    border:solid 2px;
+
+}
+#headercard{
+    position:relative;
+    top:0;
+    height:2em;
+    flex-grow: 1;
+    align-self: center;
+    text-align: center;
+    padding:0;
+}#headercard label {
+    font-size: 2em;        
+    vertical-align: baseline; 
+    line-height: 2em;        
+    text-decoration: underline overline;
+    display: inline-block;    
+    margin: 0;
+    padding: 0;
+}
+
+.card1{
+    display:flex;
+    height:7em;
+    width:100em;
+    align-self: center;
+    flex-wrap:wrap;
+}
+.card2{
+    background: #eaff70e0;
+    height: 7em;
+    width: 100em;
+    justify-self: center;
+    align-self: center;
+    border:solid 2px;
+}
+.unit{
+    background: #3eeb5b;
+    border: solid 2px;
+    flex-grow: 1;
+    height:6em;
+    width:10rem;
+    display:flex;
+    position:relative;
+    flex-grow:3;
+    flex-wrap:wrap;
+    
+}
+.label1,.label2{
+    background: #d2e471de;
+    flex-grow:1;
+    flex: 1 1 100%;
+    width: 100%;
+}
+.unit select[name="unit"],.result input[type="number"]{
+    background: #ade7b4ce;
+    flex-grow:1;
+    height: 3rem;
+    width: 100%;
+}.value input[type="number"]{
+    height: 2rem;
+    margin: 8px;
+}.result input[type="number"]{
+    width:8rem;
+    
+}
+.value{
+    background: #3eeb5b;
+    border: solid 2px;
+    flex-grow: 1;
+    height:6em;
+    width:10rem;
+    display:flex;
+    position:relative;
+    flex-grow:3;
+    flex-wrap:wrap;
+}.value input[type="number"]{
+    background: #ade7b4ce;
+    display:inline-block;
+    border: solid 2px;
+    height:2em;
+    width:30%;
+    /* flex-shrink: ; */
+    /* position:relative; */
+      /* flex-grow:1 */
+}
+#value-unit{
+    background: #ade7b4ce;
+    display:inline-block;
+    border: solid 2px;
+    height:2.2em;
+    width:60px;
+}
+.result{
+    gap:20px;
+}
+#submit{
+    height: 50px;
+    width: 120px;
+    font-size: xx-large;
+    background: #4677fd;
+    color: #acf5ff;
+    
+}
+#submit:hover {
+    background: #ff9800;
+    border: 2px solid #e65100;
+    /* box-shadow: 0 0 8px #ff9800; */
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s,  0.2s;
+}
+
+ 
